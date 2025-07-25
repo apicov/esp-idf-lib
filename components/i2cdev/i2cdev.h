@@ -180,6 +180,7 @@ typedef struct
             uint32_t clk_speed; //!< Clock speed in Hz
         } master;               //!< Master-specific config (mimics old i2c_config_t.master)
     } cfg;                      //!< Configuration set by device drivers (i2c_config_t compatible layout)
+    
 } i2c_dev_t;
 
 /**
